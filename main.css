@@ -1,0 +1,58 @@
+@charset "UTF-8";
+
+body {
+	background-color: black;
+	font-family: Verdana;
+}
+	
+.head {
+	text-align: center;
+}
+h1 {
+	color: white;
+}
+h2 {
+	color: white;
+}
+	
+.menu a{
+	display: inline-block;
+	text-decoration: none;
+	color: white;
+	text-align: center;
+	padding: 10px 20px;
+	margin-top: 10px;
+	font-size: 30px;
+}
+
+.menu a:hover {
+	border-bottom: 3px solid white;
+}
+
+.menu a.active {
+	border-bottom: 3px solid white;
+}
+
+.menu-right {
+	float: right;
+}
+
+.img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+	height: 500px;
+	width: 500px;
+	background-image: url(whitecat.png);
+}
+	
+.footer
+{
+	text-align: center;
+	bottom: 0;
+}
+
+h4 {
+	color: white;
+}
+	
